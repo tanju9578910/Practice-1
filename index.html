@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <a href="" target="_self"><img src="https://i.postimg.cc/RVzN4B6M/menu.png" class="menu-ing"></a>
+
+            <a href="" target="_self"> <img src="https://i.postimg.cc/5NqjtRL8/logo.png" class="logo-ing"></a>
+
+            <ul>
+                <li><a href="#"> Switch Here ></a></li>
+                <li>
+            </ul>
+            <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+        </nav>
+
+        <!--nav end here--->
+
+        <div class="lamp-container">
+            <img src="https://i.postimg.cc/xjmcwCdx/lamp.png" class="lamp">
+            <img src="https://i.postimg.cc/3x8N0FFV/light.png" class="light" id="light">
+
+            <div class="sleepy">
+                <img src="https://i.postimg.cc/9QLMdwxM/panda.png">
+            </div>
+        </div>
+
+        <div class="text-container">
+            <h1>Never Give Up On Your Dream</h1>
+            <p>So keep sleeping.....
+            </p>
+
+            <a href="#">Check All Collection</a>
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+    <script>
+        var btn = document.getElementById("btn");
+        var light = document.getElementById("light");
+
+        function toggleBtn() {
+            btn.classList.toggle("active");
+            light.classList.toggle("on");
+        }
+    </script>
+</body></html>
+
+
+
+
